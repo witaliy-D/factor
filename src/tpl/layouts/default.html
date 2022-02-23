@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <section class="page-wrap">
+
+    <header class="header content spacer">
+      <a href="#" class="logo">
+        <img src="images/logo-10.png" alt="Лого">
+      </a>
+
+      <nav class="nav menu spacer">
+        <div class="nav__link-list">
+          <a href="#uslugi" class="nav__link">НАШИ УСЛУГИ</a>
+          <a href="#otzivi" class="nav__link">ОТЗЫВЫ</a>
+          <a href="#about" class="nav__link">О НАС</a>
+          <a href="#contact" class="nav__link">КОНТАКТЫ</a>
+        </div>
+        <div class="nav__contacts-list">
+          <a class="nav__link" href="tel:+78123201020">+7 (812) 320-10-20</a>
+          <p>ул. Варшавская д.23, к.1</p>
+        </div>
+        <!--contacts__list-->
+      </nav>
+
+      <span class="menu-btn"></span>
+
+    </header>
+
+    <section class="main">
+      <div class="content">
+        <div class="main__left">
+          <h1>
+            Косметология
+            Фактор Улыбки
+          </h1>
+
+          <p class="main__desc">
+            Косметология и эстетическая медицина продлевают
+            молодость и красоту кожи. Мы выполняем процедуры
+            с применением препаратов нового поколения без
+            хирургического вмешательства.
+          </p>
+
+          <a href="#uslugi" class="purple-btn main__link">ПЕРЕЙТИ К УСЛУГАМ</a>
+
+        </div>
+        <!--main__left-->
+
+        <div class="callback">
+          <div class="page-wrapper">
+            <a href="tel:+78123201020" class="callback__phone">+7 (812) 320-10-20</a>
+            <a class="btn trigger callback__btn" href="#">Онлайн запись</a>
+          </div>
+        </div>
+        <!--callback-->
+
+      </div>
+      <!--content-->
+
+    </section>
+    <!--main-->
+
+    <section class="banners flex-container">
+      <div href="#" class="banner" style="background-image:url('images/banners/banner-1.jpg');">
+        <div class="banner-title">СКИДКА 50% на первый приём</div>
+        <a class="purple-btn main__link banner-button trigger">Записаться</a>
+        <div class="banner-srok-akciy">Акция действует до 31.03.2022</div>
+      </div>
+      <div href="#" class="banner" style="background-image:url('images/banners/banner-2.jpg');">
+        <div class="banner-title">Бесплатная консультация косметолога</div>
+        <a class="purple-btn main__link banner-button trigger">Записаться</a>
+        <div class="banner-srok-akciy">Акция действует до 28.02.2022</div>
+      </div>
+    </section>
+    <!--banners-->
+
+    <section class="about content" id="about">
+      <div class="about__right">
+        <h2>
+          О НАС
+        </h2>
+
+        <p>
+          Наша клиника предоставляет широкий комплекс услуг в косметологии - помогает бороться с мелкими морщинами,
+          высыпаниями, сухостью и
+          другими несовершенствами кожи. В своей ежедневной работе, мы используем препараты и косметические средства
+          только профессиональных
+          брендов от производителей, которые прошли необходимые фармакологические и биохимические исследования,
+          многоэтапные тестирования и
+          имеют соответствующую сертификацию о качестве и абсолютной безопасности.
+        </p>
+
+        <p>
+          Все услуги в клинике, оказывает высоко-квалифицированный персонал, который обязательно имеет высшее
+          медицинское образование и
+          постоянно проходит курсы повышения своей квалификации по техникам эстетической и инъекционной косметологии и
+          мезотерапии.
+        </p>
+
+      </div>
+      <!--about__right-->
+
+    </section>
+    <!--about-->
+
+    <section class="why content">
+      <h2>
+        НАС ВЫБИРАЮТ ПОТОМУ ЧТО У НАС
+      </h2>
+
+      <div class="why__list spacer_top">
+        <div class="why__item">
+          <span class="why__item-icon">
+            <i class="why__icon why__icon_1"></i>
+          </span>
+
+          <p class="why__item-desc">
+            Современное оборудование
+          </p>
+
+        </div>
+        <!--why__item-->
+
+        <div class="why__item">
+          <span class="why__item-icon">
+            <i class="why__icon why__icon_2"></i>
+          </span>
+
+          <p class="why__item-desc">
+            Дружелюбные и высококлассные специалисты
+          </p>
+
+        </div>
+        <!--why__item-->
+
+        <div class="why__item">
+          <span class="why__item-icon">
+            <i class="why__icon why__icon_3"></i>
+          </span>
+
+          <p class="why__item-desc">
+            Высокое качество услуг
+          </p>
+
+        </div>
+        <!--why__item-->
+
+      </div>
+      <!--why__list-->
+
+    </section>
+    <!--why-->
+
+    {{> services }}
+
+    <!--services-->
+
+    <section class="reviews content" id="otzivi">
+      <h2>
+        ОТЗЫВЫ
+      </h2>
+
+      <div class="reviews__slider">
+        <div class="reviews__slider-center">
+          <div class="reviews__slides owl-carousel">
+            <div class="review">
+              <p class="review__text">
+                Давно являюсь пациентом Фактора улыбки, пришла на прием к своему стоматологу и была приятно удивлена,
+                что теперь в клинике есть и косметология! В этот же день решилась на фитнес- массаж лица, не устояла
+                перед скидкой 20%! Массаж необычный, но ощущения после массажа приятные. Почитала отзывы, что если
+                делать серию процедур- результат очень радует, поэтому буду продолжать.
+              </p>
+
+              <p class="review__name">
+                Александра Н.
+              </p>
+
+              <p class="review__date">
+                24 дек 2021
+              </p>
+
+            </div>
+            <!--review-->
+
+            <div class="review">
+              <p class="review__text">
+                Сестра подарила на день рождения сертификат на чистку лица. Ранее делала такую процедуру несколько раз,
+                поэтому есть с чем сравнить. На следующий день не было никаких покраснений и шелушений, как это обычно
+                бывает. Теперь записалась на уколы красоты, чтоб к новому году быть во всей красе))
+              </p>
+
+              <p class="review__name">
+                Сенькова Виктория
+              </p>
+
+              <p class="review__date">
+                16 явн 2022
+              </p>
+
+            </div>
+            <!--review-->
+
+            <div class="review">
+              <p class="review__text">
+                Екатерина Сергеевна, спасибо вам! Благодаря Вам я красотка))) Я решила немного увеличить губы, но
+                переживала что будут как у утки)))) Она сделала из моих тоненьких и без форменных губ, пухлые и
+                естественные губки))) Спасибо, спасибо, спасибо вам!!!!
+                Кстати клиника потрясная! Красивая, персонал приветливый. Вы классные.
+              </p>
+
+              <p class="review__name">
+                Александра Н.
+              </p>
+
+              <p class="review__date">
+                28 янв 2022
+              </p>
+
+            </div>
+            <!--review-->
+
+            <div class="review">
+              <p class="review__text">
+                Пришла на прием к стоматологу, сказали, что сейчас консультация у врача- косметолога бесплатная и я
+                подумала, что почему бы не воспользоваться случаем! У меня очень проблемная кожа и походы к врачу-
+                косметологу для меня не редкость(( Специалист мне понравился, грамотный, консультация была очень
+                подробной. Решилась попробовать пилинг и не пожалела, результатом довольна. В работе врач использует
+                очень хорошие косметические средства , что для меня важно.
+              </p>
+
+              <p class="review__name">
+                Сенькова Виктория
+              </p>
+
+              <p class="review__date">
+                4 фев 2022
+              </p>
+
+            </div>
+            <!--review-->
+
+          </div>
+          <!--reviews__slides-->
+
+        </div>
+        <!--reviews__slider-center-->
+
+        <span class="reviews__prev">
+          <svg class="svg-icon icon-arrow pos-center">
+            <use xlink:href="images/sprite.svg#icon-arrow"></use>
+          </svg>
+        </span>
+
+        <span class="reviews__next">
+          <svg class="svg-icon icon-arrow pos-center">
+            <use xlink:href="images/sprite.svg#icon-arrow"></use>
+          </svg>
+        </span>
+
+      </div>
+      <!--reviews__slider-->
+
+    </section>
+    <!--reviews-->
+
+    <section class="certificates content">
+      <h2>
+        ЛИЦЕНЗИИ И СЕРТИФИКАТЫ
+      </h2>
+
+      <div class="certificates__list spacer_top">
+        <div class="certificate">
+          <img src="images/certificates/certificate-1.jpg" alt="Сертификат">
+        </div>
+        <!--certificate-->
+        <div class="certificate">
+          <img src="images/certificates/lic-1.jpg" alt="Сертификат">
+        </div>
+        <!--certificate-->
+      </div>
+      <!--certificates__list-->
+
+    </section>
+    <!--certificates-->
+
+    <section class="contacts">
+      <div class="content">
+        <div class="contacts__block" id="contact">
+          <h2>
+            КОНТАКТЫ
+          </h2>
+
+          <p class="contacts__sub-title">
+            Всегда рады видеть Вас!
+          </p>
+
+          <div class="contacts__list">
+            <div class="contact">
+              <span class="contact__icon">
+                <svg class="svg-icon icon-pin">
+                  <use xlink:href="images/sprite.svg#icon-pin"></use>
+                </svg>
+              </span>
+              <p>ул. Варшавская д.23, к.1</p>
+            </div>
+            <!--contact-->
+
+            <div class="contact">
+              <span class="contact__icon">
+                <svg class="svg-icon icon-phone">
+                  <use xlink:href="images/sprite.svg#icon-phone"></use>
+                </svg>
+              </span>
+              <a href="tel:+78123201020">+7 (812) 320-10-20</a>
+            </div>
+            <!--contact-->
+
+          </div>
+          <!--contacts__list-->
+
+        </div>
+        <!--contacts__block-->
+
+      </div>
+      <!--content-->
+
+      <div id="map"></div>
+
+    </section>
+    <!--contacts-->
+
+    <!-- МОДАЛЬНОЕ ОКНО-->
+    <div class="modal-wrapper">
+      <div class="head"></div>
+      <div class="modal">
+        <div class="content">
+          <div class="good-job">
+            <button class="btn-close" type="button" aria-label="Закрыть">
+              <svg width="12" height="11" viewBox="0 0 18 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18 1.4175L16.4885 0L8.99468 7.07747L1.50089 0L0 1.4175L7.49379 8.49497L0 15.5724L1.50089 17L8.99468 9.92253L16.4885 17L18 15.5724L10.5062 8.49497L18 1.4175Z"
+                  fill="#231F20"></path>
+              </svg>
+            </button>
+            <p>ОСТАВЬТЕ СВОИ ДАННЫЕ И МЫ С ВАМИ СВЯЖЕМСЯ</p>
+            <form class="form_modal_window" action="">
+              <input type="text" name="name" placeholder="Ваше имя" required>
+              <input type="phone" name="phone" placeholder="Ваш телефон" required>
+              <div class="checkbox__container">
+                <input class="form_modal__checkbox" type="checkbox" name="data-processing" id="data-processing" required />
+                <label class="form_modal__label" for="data-processing">Согласие на обработку данных</label>
+              </div>
+              <input class="form_sub" name="sub" type="submit" value="ОТПРАВИТЬ">
+            </form>
+            <div id="erconts"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer content spacer">
+      <a href="#" class="logo">
+        <img src="images/logo-10.png" alt="Лого">
+      </a>
+
+      <p class="copyright">2021 г. Косметология Фактор Улыбки</p>
+
+    </footer>
+
+  </section>
+  <!--page-wrap-->
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs/vendor.js"> </script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!--AJAX СКРИПТ ДЛЯ ФОРМЫ-->
+  <script>
+    $(document).ready(function () {
+      $('.form_sub').click(function () {
+        $.ajax({
+          type: "POST", //указываем что метод отправки POST
+          url: "form.php", // указываем адрес обработчика
+          data: $('.form_modal_window').serialize(), //указываем данные которые будут передаваться обработчику
+          /* Мы указываем id формы - $('#callbacks'), и методом serialize() забираем значения всех полей. */
+          error: function () { $("#erconts").html("Произошла ошибка!"); },
+          /* если произойдет ошибка в элементе с id erconts выведется сообщение*/
+          beforeSend: function () {
+            $("#erconts").html("<p style='color: orangered;'>Отправляем данные...</p>");
+          },
+          success: function (result) {
+            /* В случае удачной обработки и отправки выполнится следующий код*/
+            $('#erconts').html(result);
+            checkThis();
+          }
+        });
+        return false;
+      });
+    });
+  </script>
+
+</body>
+

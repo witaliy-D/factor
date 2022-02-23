@@ -1,0 +1,13 @@
+{
+	"ignore": [
+		"node_modules/**/*",
+		"src/js/index.js",
+    "src/js/script.js",
+    "src/js/scripts.min.js",
+    "src/js/owl.carousel.min.js",
+		"src/js/libs/*.js"
+	],
+	"presets": [
+		"@babel/preset-env"
+	]
+}
